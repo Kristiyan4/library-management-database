@@ -1,4 +1,4 @@
-Library Management System – Database Project
+# Library Management System – Database Project
 
 A relational database for a library / book-lending system, designed as a university project in MySQL. It models books, authors, publishers, readers and staff, and includes triggers and a scheduled event that enforce real business rules at the database level.
 
@@ -31,6 +31,16 @@ mysql -u your_user -p < schema.sql
 ```
 
 This drops and recreates the `2024_TU_Lab1` database, creates all tables, triggers, and the scheduled event, and seeds it with sample data.
+
+### Or with Docker
+
+No local MySQL install needed — just Docker:
+
+```bash
+docker compose up -d
+```
+
+This spins up a MySQL 8 container and automatically runs `schema.sql` on first start, so the database is ready to query right away. Stop it with `docker compose down` (add `-v` to also wipe the stored data).
 
 ## Tech
 

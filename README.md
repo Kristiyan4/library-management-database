@@ -45,3 +45,8 @@ This spins up a MySQL 8 container and automatically runs `schema.sql` on first s
 ## Tech
 
 MySQL · DDL, DML, triggers, events
+
+## EER diagram
+
+<img width="1470" height="956" alt="Screenshot 2026-06-20 at 17 49 38" src="https://github.com/user-attachments/assets/9645fd3f-8d23-43d3-81c3-14d3915d998c" />
+

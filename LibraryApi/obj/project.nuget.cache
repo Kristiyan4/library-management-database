@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "exg+YA6gqDM=",
+  "success": true,
+  "projectFilePath": "/Users/kristiyanyordanov/Desktop/LibraryApi/LibraryApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/kristiyanyordanov/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/kristiyanyordanov/.nuget/packages/mysqlconnector/2.3.7/mysqlconnector.2.3.7.nupkg.sha512"
+  ],
+  "logs": []
+}
